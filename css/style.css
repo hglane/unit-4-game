@@ -1,4 +1,15 @@
 
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: black url(/images/mineshaft.jpg) center center no-repeat;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
 
 .crystals{
     display: flex; 
@@ -7,7 +18,7 @@
 }
 
 .crystal{
-    border: 1px solid green; 
+    border: 1px solid black; 
     height: 200px; 
     width: 200px; 
     border-radius: 4px; 
@@ -24,3 +35,98 @@
 img{
     width: 50px;
 }
+
+#previous{
+    color: white;
+}
+
+#pageTitle{
+    font-size: 53px;
+    padding: 85px;
+    text-align: center;
+    font-family: cursive;
+    background: -webkit-linear-gradient(left, white, black);
+    background: -o-linear-gradient(right, white, white));
+    background: -moz-linear-gradient(right, white, white));
+    background: linear-gradient(to right, white, white)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#instructions {
+    text-align: center;
+    height: 150px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px; 
+}
+
+#insText{
+    border: 2px solid #0066FF;  
+    background-color:white;  
+    
+    padding:5px;  
+    margin-top:5px;  
+    margin-bottom:5px;  
+    margin-left:20px;  
+    margin-right:20px;  
+}
+
+h1{
+    padding: 10px;
+    margin-bottom: -20px;
+    font-size: 30px;
+    background: -webkit-linear-gradient(left, white, black);
+    background: -o-linear-gradient(right, white, white));
+    background: -moz-linear-gradient(right, white, white));
+    background: linear-gradient(to right, white, white)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#result{
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#previous{
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#win{
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#lose{
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#result{
+    text-align: center;
+    font-size: 25px
+}
+
+#win {
+    margin-left: 575px;
+    margin-top: -69px;
+    font-size: 30px;
+}
+
+#lose {
+    margin-left: 800px;
+    margin-top: -70px;
+    font-size: 30px;
+}
+
+#previous {
+    font-size: 30px; 
+    margin-left: 300px;
+}
+

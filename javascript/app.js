@@ -19,7 +19,7 @@ var resetAndStart = function () {
 
     random_result = Math.floor(Math.random() * 101 ) + 19;
 
-    $("#result").html('Random Result: ' + random_result);
+    $("#result").html('Your Random Number: ' + random_result);
 
     for(var i = 0; i < 4; i++){
 
@@ -42,6 +42,10 @@ var resetAndStart = function () {
     }
 
     $("#previous").html("Total Score: " + previous);
+
+    $("#win").html("Wins: " + win);
+
+    $("#lose").html("Losses: " + lose);
 }
 
 
@@ -89,11 +93,10 @@ $(document).on('click', ".crystal", function(){
 //a game with 4 crystals and random result
 //every crystal needs a random number between 1-12
 //that number should be generated every time we win or lose
-//to those 4 crystals
 //when clicking any crystal, it should be adding with the previous result
-//until it equals the to the random result
-//If it is greater than the random result we decrement a lose counter
-//If it is equal, then we increment a win counter
+//until it equals the random result
+//If it is greater than the random result we add to loss counter
+//If it is equal, then we add to win counter
 
 
 
