@@ -11,10 +11,10 @@ var resetAndStart = function () {
 
     
     var images = [
-        '/images/crystal1.jpg',
-        '/images/crystal2.jpg',
-        '/images/crystal3.jpg',
-        '/images/crystal4.jpeg'
+        'images/crystal1.jpg',
+        'images/crystal2.jpg',
+        'images/crystal3.jpg',
+        'images/crystal4.jpeg'
     ];
 
     random_result = Math.floor(Math.random() * 101 ) + 19;
