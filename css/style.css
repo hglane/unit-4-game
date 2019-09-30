@@ -36,10 +36,6 @@ img{
     width: 50px;
 }
 
-#previous{
-    color: white;
-}
-
 #pageTitle{
     font-size: 53px;
     padding: 85px;
@@ -54,7 +50,9 @@ img{
 }
 
 #instructions {
-    text-align: center;
+    text-align: left;
+    text-indent: 20px;
+    line-height: 20px;
     height: 150px;
     width: 60%;
     margin: 0 auto;
@@ -62,9 +60,9 @@ img{
 }
 
 #insText{
-    border: 2px solid #0066FF;  
+    border: 2px solid black;  
     background-color:white;  
-    
+    font-family: Arial, Helvetica, sans-serif;
     padding:5px;  
     margin-top:5px;  
     margin-bottom:5px;  
@@ -75,6 +73,7 @@ img{
 h1{
     padding: 10px;
     margin-bottom: -20px;
+    text-align: center;
     font-size: 30px;
     background: -webkit-linear-gradient(left, white, black);
     background: -o-linear-gradient(right, white, white));
@@ -85,48 +84,39 @@ h1{
 }
 
 #result{
-    color: white;
     padding: 20px;
     margin: 0 auto;
-}
-
-#previous{
-    color: white;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-#win{
-    color: white;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-#lose{
-    color: white;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-#result{
     text-align: center;
-    font-size: 25px
+    font-size: 25px;
+    background: -webkit-linear-gradient(left, white, black);
+    background: -o-linear-gradient(right, white, white));
+    background: -moz-linear-gradient(right, white, white));
+    background: linear-gradient(to right, white, white)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
-#win {
+#win{
+    padding: 20px;
+    margin: 0 auto;
     margin-left: 575px;
     margin-top: -69px;
     font-size: 30px;
+    color: white;
 }
 
-#lose {
+#lose{
+    padding: 20px;
+    margin: 0 auto;
     margin-left: 800px;
     margin-top: -70px;
     font-size: 30px;
+    color: white;
 }
 
 #previous {
     font-size: 30px; 
     margin-left: 300px;
+    padding: 20px;
+    color: white;
 }
 
